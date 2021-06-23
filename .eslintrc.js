@@ -15,6 +15,7 @@ module.exports = {
   plugins: [
     'vue',
     '@typescript-eslint',
+    'plugin:import/typescript',
   ],
   rules: {
     'vue/no-multiple-template-root': 'off', // Not needed with Vue 3
